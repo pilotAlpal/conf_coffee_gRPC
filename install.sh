@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt update
-sudo apt install openjdk-8-jdk openjdk-8-jdk-headless maven git
+sudo apt install -y openjdk-8-jdk openjdk-8-jdk-headless maven git
 git clone https://github.com/escalope/coffeegrpc.git
 cd coffeegrpc
 mvn clean package
