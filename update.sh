@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pkill -9 -f coffeegprc
+sudo pkill -9 -f coffeegrpc
 rm -rf coffeegprc
 git clone git@github.com:softportal/coffeegrpc.git
 cd coffeegrpc
